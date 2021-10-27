@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font: 12px/1.5em "宋体";
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+#top {
+    width: 1000px;
+    margin: 0px auto;
+    height: 18px;
+}
+
+#top p.word {
+    float: left;
+}
+
+#top p.help {
+    float: right;
+}
+
+#top a:link,
+#top a:visited {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#top a:hover {
+    color: #f00;
+}
+
+#nav {
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+#logo {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 30px 0px 20px 0px;
+    background: url(./img/logo_03.png) no-repeat 0px 30px;
+    height: 33px;
+}
+
+#logo ul {
+    float: right;
+}
+
+#logo ul li {
+    float: left;
+    margin-top: 5px;
+}
+
+#logo li a:link,
+#logo li a:visited {
+    color: #000000;
+    text-decoration: none;
+    font: 16px/1.5 微软雅黑;
+    margin: 0px 20px;
+}
+
+#logo li a:hover,
+#logo li a.hover {
+    color: #fead0f;
+    text-decoration: underline;
+}
+
+#container {
+    background-color: #f6f6f6;
+    padding-bottom: 255px;
+}
+
+#content {
+    background: url(./img/load/load_bg_03.jpg) no-repeat center;
+    height: 401px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#content form {
+    background: url(./img/load/main_bg_09.png);
+    width: 250px;
+    height: 320px;
+    position: absolute;
+    right: 240px;
+    top: 20px;
+    padding: 20px 25px;
+}
+
+#content form p.page {
+    color: #ffffff;
+    margin-top: 10px;
+    font: 16px/1.5 宋体;
+}
+
+#content input.text {
+    padding: 6px 5px 6px 35px;
+    width: 215px;
+    height: 18px;
+    background: #fff url(./img/load/people_07.jpg) no-repeat 5px 3px;
+}
+
+.mina {
+    position: relative;
+}
+
+.pwd {
+    padding: 6px 5px 6px 35px;
+    width: 215px;
+    height: 18px;
+    background: #fff url(./img/load/lock_07.jpg) no-repeat 5px 3px;
+}
+
+.mina img {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.btn {
+    width: 250px;
+    text-align: center;
+    color: #ffffff;
+    background: url(./img/load/tj_bg_18.jpg) repeat-x;
+    margin: 25px 0px 15px;
+    padding: 5px 0px 10px;
+    font: 16px/1.5em 宋体;
+}
+
+.tip {
+    color: #ffffff;
+    padding-bottom: 5px;
+    font: 14px/1.5em 宋体;
+    border-bottom: 1px solid #ffffff;
+}
+
+.box {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    border: none;
+}
+
+p.tip a:link,
+p.tip a:visited {
+    color: rgb(255, 255, 255);
+    margin-left: 85px;
+    font: 14px / 1.5 宋体;
+    text-decoration: none;
+}
+
+p.tip a:hover {
+    color: #f00;
+}
+
+#content div {
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    color: #90886f;
+    clear: both;
+}
+
+#footer a:link,
+#footer a:visited {
+    color: #90886f;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#footer a:hover {
+    color: #f00;
+}
